@@ -50,7 +50,7 @@ public class OuterClass {
 		InnerLocalClass lc = new InnerLocalClass();
 		lc.print(s);
 		//Anonyme Klasse
-		OuterClass.Printable ac = new OuterClass.Printable() {
+		Printable ac = new OuterClass.Printable() {
 			@Override
 			public void print(String s) {
 				System.out.println(this.getClass().getName()+": "+s);
@@ -58,8 +58,8 @@ public class OuterClass {
 		};
 		ac.print(s);
 		//Kambda-Funktion ohne Klasse
-		OuterClass.Printable_Lambda lambda = (lambda_function) -> {
-			System.out.println(this.getClass().getName()+": "+s);
+		Printable_Lambda lambda = (String s2) -> {
+			System.out.println(this.getClass().getName()+": "+s2);
 		};
 		lambda.print(s);
 		
