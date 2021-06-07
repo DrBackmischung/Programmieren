@@ -9,7 +9,6 @@ import de.mathisneunzig.programmierenvl.zug.GueterManager;
 
 public class Main {
 	
-	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Maths m = new Maths();
