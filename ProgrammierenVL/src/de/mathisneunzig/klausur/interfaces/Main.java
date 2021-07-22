@@ -10,6 +10,12 @@ public class Main {
 		t.slower();
 		t.stop();
 		
+		Auto a = new Auto();
+		a.start();
+		a.faster();
+		a.slower();
+		a.stop();
+		
 	}
 	
 }

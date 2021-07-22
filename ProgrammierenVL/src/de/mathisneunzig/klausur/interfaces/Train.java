@@ -3,6 +3,7 @@ package de.mathisneunzig.klausur.interfaces;
 public class Train implements Drivable, Bookable {
 	
 	//Alle Methoden der beiden Interfaces muessen implementiert werden.
+	//Dadurch wird Mehrfachvererbung moeglich!
 
 	@Override
 	public void book() {
