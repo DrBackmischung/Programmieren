@@ -2,6 +2,6 @@ package de.mathisneunzig.klausur.interfaces;
 
 public interface Bookable {
 	
-	public void book();
+	public void book(int seats);
 
 }

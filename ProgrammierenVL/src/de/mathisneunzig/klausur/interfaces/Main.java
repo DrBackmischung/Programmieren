@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Train t = new Train();
+		t.book(5);
 		t.start();
 		t.faster();
 		t.slower();

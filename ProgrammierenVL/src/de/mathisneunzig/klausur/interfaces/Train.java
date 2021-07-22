@@ -6,8 +6,8 @@ public class Train implements Drivable, Bookable {
 	//Dadurch wird Mehrfachvererbung moeglich!
 
 	@Override
-	public void book() {
-		System.out.println("Ich werde gebucht!");
+	public void book(int seats) {
+		System.out.println("Ich werde gebucht! (und das gleich "+seats+" mal!)");
 	}
 
 	@Override
