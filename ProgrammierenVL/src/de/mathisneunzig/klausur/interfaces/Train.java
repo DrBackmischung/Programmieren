@@ -1,6 +1,8 @@
 package de.mathisneunzig.klausur.interfaces;
 
 public class Train implements Drivable, Bookable {
+	
+	//Alle Methoden der beiden Interfaces muessen implementiert werden.
 
 	@Override
 	public void book() {
@@ -10,7 +12,6 @@ public class Train implements Drivable, Bookable {
 	@Override
 	public void start() {
 		System.out.println("Ich starte!");
-		
 	}
 
 	@Override
