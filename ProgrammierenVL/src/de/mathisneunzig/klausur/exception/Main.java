@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		CommuterTrain c = new CommuterTrain(200);
+		CommuterTrain c = new CommuterTrain(200, 1, 7);
 		
 		//Buchung 1: 150 Sitze
 		c.book(150);

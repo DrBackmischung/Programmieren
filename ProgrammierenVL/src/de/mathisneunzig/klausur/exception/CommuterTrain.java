@@ -7,7 +7,8 @@ public class CommuterTrain extends Train {
 	private int seats;
 	private int freeSeats;
 	
-	public CommuterTrain(int seats) {
+	public CommuterTrain(int seats, int n, double l) {
+		super(n, l);
 		this.seats = seats;
 		this.freeSeats = seats;
 	}

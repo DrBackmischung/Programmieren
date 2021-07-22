@@ -30,7 +30,7 @@ class BookingExceptionTest {
 	@Test
 	void test() {
 		Assertions.assertDoesNotThrow( () -> {
-			CommuterTrain c = new CommuterTrain(200);
+			CommuterTrain c = new CommuterTrain(200, 1, 5);
 			c.book(200);
 			c.book(10);
 		}, "Fehler nicht geworfen");

@@ -81,6 +81,7 @@ public class OuterClass {
 	
 	void printFromLambda(String s) {
 		
+		//Das (text) ersetzt den ganzen Methodenkopf bei der Anonymen Klasse!
 		PrintableLambda myLambda = (text) -> { System.out.println(this.getClass().getName()+": "+text); };
 		myLambda.print(s);
 		

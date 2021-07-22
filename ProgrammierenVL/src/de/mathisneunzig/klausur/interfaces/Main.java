@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Train t = new Train();
+		Train t = new Train(3, 5);
 		t.book(5);
 		t.start();
 		t.faster();
